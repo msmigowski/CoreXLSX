@@ -15,11 +15,11 @@ public struct Cell: Codable, Equatable {
   /// node having the same name?
   public let s: String?
   public let inlineString: InlineString?
-  public let formula: String?
+//  public let formula: String?
   public let value: String?
 
   enum CodingKeys: String, CodingKey {
-    case formula = "f"
+//    case formula = "f"
     case value = "v"
     case inlineString = "is"
     case reference = "r"

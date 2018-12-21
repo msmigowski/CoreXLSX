@@ -83,7 +83,7 @@ public struct Worksheet: Codable {
   }
 
   /// https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.sheetdimension?view=openxml-2.8.1
-  public let dimension: Dimension
+  public let dimension: Dimension?
 
   public let sheetViews: SheetViews
 
